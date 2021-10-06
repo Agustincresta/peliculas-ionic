@@ -27,11 +27,35 @@
     left: 5px;
 }
 
-.card-actor {
-    height: 210px;
+.imagen-principal{
+    width: 100%;
 }
 
-.actor-name {
-    position: relative;
-    top:15px;
+.card-actor {
+    
+    --ion-background-color: #071927;
+    border:solid 0.01px #00707470;
+
+    ion-card-content{
+        padding:5px
+    }
+}
+
+ion-grid{
+    box-sizing: unset !important;
+}
+
+
+
+.columna-secundaria{
+    padding: 0px;
+    
+
+    ion-item{
+        --ion-background-color:#071927;
+    }
+}
+
+ion-toolbar{
+    color:#007074
 }

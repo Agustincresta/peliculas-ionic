@@ -13,8 +13,9 @@ export class SlideshowBackdropComponent implements OnInit {
   @Input() peliculas: Pelicula[] = [];
 
   slideOpts = {
-    slidesPerView:1.1,
-    freeMode: true
+    slidesPerView:1,
+    freeMode: true,
+    autoplay: true
   }
 
   constructor( private modalController: ModalController) { }

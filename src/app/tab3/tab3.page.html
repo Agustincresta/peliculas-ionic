@@ -3,7 +3,7 @@
   <ion-grid fixed>
     <ion-row>
       <ion-col>
-        <h3>Favoritos</h3>
+        <h2>Favoritos</h2>
       </ion-col>
       
     </ion-row>
@@ -17,7 +17,7 @@
     <ion-grid *ngIf="pelicula.pelis.length > 0">
       <ion-row>
         <ion-col>
-          <h4>{{ pelicula.genero }}</h4>
+          <h3>{{ pelicula.genero }}</h3>
         </ion-col>
       </ion-row>
       <app-slideshow-poster [peliculas]="pelicula.pelis"></app-slideshow-poster>

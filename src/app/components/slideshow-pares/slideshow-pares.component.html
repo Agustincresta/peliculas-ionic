@@ -1,4 +1,4 @@
-<ion-slides [options]="slideOpts">
+<ion-slides [options]="slideOpts" >
   <ion-slide *ngFor="let pares of peliculas | pares">
 
     <ion-row>
@@ -15,8 +15,14 @@
   </ion-slide>
 
   <ion-slide class="slide-mas">
-    <ion-button expand="full" size="large" (click)="onClick()" class="btn-mas">
-      <ion-icon slot="icon-only" name="add"></ion-icon>
+    <ion-button
+                class="btn-mas"
+                (click)="onClick()">
+      <ion-icon name="add-outline"
+                slot="icon-only"
+                color="success">
+      </ion-icon>
     </ion-button>
-  </ion-slide>
+</ion-slide>
+
 </ion-slides>

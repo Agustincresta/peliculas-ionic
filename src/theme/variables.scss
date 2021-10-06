@@ -4,12 +4,14 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
-  --ion-color-primary-rgb: 56, 128, 255;
+  --ion-color-primary: #ffffff;
+  --ion-color-primary-rgb: 0, 0, 0;
   --ion-color-primary-contrast: #ffffff;
-  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-contrast-rgb: 0, 0, 0;
   --ion-color-primary-shade: #3171e0;
   --ion-color-primary-tint: #4c8dff;
+  --ion-item-color: white;
+  
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -20,7 +22,7 @@
   --ion-color-secondary-tint: #50c8ff;
 
   /** tertiary **/
-  --ion-color-tertiary: #5260ff;
+  --ion-color-tertiary: #a1a1a1;
   --ion-color-tertiary-rgb: 82, 96, 255;
   --ion-color-tertiary-contrast: #ffffff;
   --ion-color-tertiary-contrast-rgb: 255, 255, 255;
@@ -28,15 +30,15 @@
   --ion-color-tertiary-tint: #6370ff;
 
   /** success **/
-  --ion-color-success: #2dd36f;
-  --ion-color-success-rgb: 45, 211, 111;
+  --ion-color-success: #007074;
+  --ion-color-success-rgb: 0,112,116;
   --ion-color-success-contrast: #ffffff;
   --ion-color-success-contrast-rgb: 255, 255, 255;
-  --ion-color-success-shade: #28ba62;
-  --ion-color-success-tint: #42d77d;
+  --ion-color-success-shade: #007074;
+  --ion-color-success-tint: #159599;
 
   /** warning **/
-  --ion-color-warning: #ffc409;
+  --ion-color-warning: #051421;
   --ion-color-warning-rgb: 255, 196, 9;
   --ion-color-warning-contrast: #000000;
   --ion-color-warning-contrast-rgb: 0, 0, 0;
@@ -74,6 +76,20 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  ion-content{
+    --ion-background-color: linear-gradient(to right top, #051421, #071927, #061e2d, #052432, #042938, #022d3b, #01303e, #003440, #003640, #003940, #023b40, #053d3f) !important;
+    --color: white;
+  }
+
+
+
+  ion-tab-bar{
+    --ion-background-color: rgb(255, 255, 255);
+    --color: #061e2d;
+    --color-selected: #007074;
+  }
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -83,7 +99,7 @@
    */
 
   body {
-    --ion-color-primary: #428cff;
+    --ion-color-primary: #204f9b;
     --ion-color-primary-rgb: 66,140,255;
     --ion-color-primary-contrast: #ffffff;
     --ion-color-primary-contrast-rgb: 255,255,255;

@@ -1,0 +1,36 @@
+ion-toolbar{
+    --ion-background-color: transparent !important;
+
+    ion-title{
+        color: #007074;
+    }
+}
+
+ion-searchbar{
+    --background: white !important;
+    --color:#007074;
+    --icon-color: #007074;
+    --clear-button-color:#007074;
+}
+
+.card-peli {
+    cursor: pointer;
+    --ion-background-color: #071927;
+
+}
+
+
+.list-md{
+    background:transparent !important;
+}
+
+ion-label{
+    font-size:16px
+}
+
+
+
+ion-item{
+    --background:transparent !important;
+    cursor: pointer;
+}
